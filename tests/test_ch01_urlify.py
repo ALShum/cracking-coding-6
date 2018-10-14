@@ -27,7 +27,7 @@ class TestUrlify(unittest.TestCase):
         self.assertEqual(result, 'Mr%20John%20Smith')
 
         result = testing_file.urlify_solution('Mr John Smith', 13)
-        self.assertEqual(result, 'Mr%20John%20Smith')
+        self.assertEqual(result, 'String is too short for output')
 
     def test_input_fit_string_with_length_returns_url_or_error_msg(self):
         result = testing_file.urlify('Mr John Smith', 13)
