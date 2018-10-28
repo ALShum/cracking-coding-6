@@ -14,4 +14,5 @@ def palindrome_permutation(input_str):
         return True
     elif len(formatted_str) % 2 != 0 and no_of_odd == 1:
         return True
+    
     return False
