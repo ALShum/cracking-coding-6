@@ -30,4 +30,5 @@ def urlify_solution(string, n=0):
             letters[last_index] = letters[letter_index]
             last_index -= 1
         letter_index -= 1
+        
     return ''.join(letters)
